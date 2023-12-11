@@ -21,14 +21,14 @@ Compilation: Use a C compiler such as GCC (GNU Compiler Collection) to compile t
 
 bash:
 
-gcc -o main.c
+gcc -o RC.c
 
 main.c: Name of the C source code file.
 Execution: Once compiled successfully, run the program using the following command:
 
 bash:
 
-./main c
+./RC c
 Ensure you are in the directory containing your program or specify the full path if it's located elsewhere.
 
 Running Static Code Analysis
@@ -38,5 +38,5 @@ You can use tools like cppcheck for static code analysis to check for potential 
 
 bash:
 
-cppcheck main.c
+cppcheck RC.c
 Make sure cppcheck is installed on your system before running the analysis.
