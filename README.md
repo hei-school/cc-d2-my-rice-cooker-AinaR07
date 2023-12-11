@@ -26,7 +26,7 @@ To lint the code:
 
 bash
 
-dartanalyzer rice_cooker.dart
+dartanalyzer RC.dart
 
 # TypeScript
 ## Overview
@@ -40,13 +40,13 @@ Prerequisites
 Ensure Node.js and TypeScript are installed.
 
 ## Files
-rice_cooker.ts: Contains the TypeScript code for the rice cooker program.
+index.ts: Contains the TypeScript code for the rice cooker program.
 Usage
 To run the program:
 
 bash
 
-npx ts-node rice_cooker.ts
+npx ts-node index.ts
 Linter Installation (eslint)
 To install ESLint for TypeScript:
 
@@ -57,7 +57,7 @@ To lint the code:
 
 bash
 
-npx eslint rice_cooker.ts
+npx index.ts
 
 # Ruby
 ## Overview
@@ -72,7 +72,7 @@ Ensure Ruby is installed.
 
 ## Files
 
-rice_cooker.rb: Contains the Ruby code for the rice cooker program.
+main.rb: Contains the Ruby code for the rice cooker program.
 
 ## Usage
 To run the program:
