@@ -53,10 +53,11 @@ To install ESLint for TypeScript:
 bash
 
 npm install eslint @typescript-eslint/parser @typescript-eslint/eslint-plugin --save-dev
+
 To lint the code:
 
 bash
-
+npx --fix index.ts (automatic correction)
 npx index.ts
 
 # Ruby
