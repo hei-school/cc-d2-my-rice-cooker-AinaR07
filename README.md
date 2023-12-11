@@ -1,4 +1,4 @@
-## Rice cooker program
+# My Rice Cooker Program - Rice Cooking Simulator
 
 # Dart
 ## Overview
@@ -18,7 +18,7 @@ To run the program:
 
 bash
 
-dart rice_cooker.dart
+dart RC.dart
 Linter Installation (dartanalyzer)
 No additional installation needed. Dart Analyzer comes with the Dart SDK.
 
@@ -72,25 +72,26 @@ Ensure Ruby is installed.
 
 ## Files
 
-main.rb: Contains the Ruby code for the rice cooker program.
+ruby.rb: Contains the Ruby code for the rice cooker program.
 
 ## Usage
 To run the program:
 
 bash
 
-ruby main.rb
+ruby ruby.rb
 Linter Installation (RuboCop)
 To install RuboCop for linting:
 
 bash
 
 gem install rubocop
+
 To lint the code:
 
 bash
 
-rubocop main.rb
+rubocop ruby.rb or rubocop
 
 # C
 ## Overview
@@ -104,18 +105,19 @@ Prerequisites
 Ensure a C compiler (e.g., GCC) is installed.
 
 ## Files
-rice_cooker.c: Contains the C code for the rice cooker program.
+RC.c: Contains the C code for the rice cooker program.
 Usage
 To compile and run the program:
 
 bash
 
-gcc -o main.c
-./main
+gcc -o RC.c
+./RC
+
 Linter Installation (cppcheck)
 To install cppcheck for linting:
 
 
-bash
+bash:
 
-cppcheck main.c
+cppcheck RC.c
