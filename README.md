@@ -12,7 +12,7 @@ Prerequisites
 Ensure Dart SDK is installed.
 
 ## Files
-rice_cooker.dart: Contains the Dart code for the rice cooker program.
+RC.dart: Contains the Dart code for the rice cooker program.
 Usage
 To run the program:
 
@@ -79,7 +79,7 @@ To run the program:
 
 bash
 
-ruby rice_cooker.rb
+ruby main.rb
 Linter Installation (RuboCop)
 To install RuboCop for linting:
 
@@ -90,7 +90,7 @@ To lint the code:
 
 bash
 
-rubocop rice_cooker.rb
+rubocop main.rb
 
 # C
 ## Overview
@@ -110,12 +110,12 @@ To compile and run the program:
 
 bash
 
-gcc -o rice_cooker rice_cooker.c
-./rice_cooker
+gcc -o main.c
+./main
 Linter Installation (cppcheck)
 To install cppcheck for linting:
 
 
 bash
 
-cppcheck rice_cooker.c
+cppcheck main.c
