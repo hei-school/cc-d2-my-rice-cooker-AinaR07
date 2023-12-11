@@ -29,11 +29,11 @@ This command will check for any potential issues or coding style violations in y
  - .rubocop.yml: Configuration file for Rubocop linter.
  - Gemfile: Contains information about required gems and versions.
 Example Execution:
-You have a file named rice_cooker.rb containing the provided Ruby code. To run the program:
+You have a file named ruby.rb containing the provided Ruby code. To run the program:
 
 Run the Program:
 
 bash:
 
-ruby rice_cooker.rb
+ruby ruby.rb
 This will start the interactive rice cooker program in your terminal.
