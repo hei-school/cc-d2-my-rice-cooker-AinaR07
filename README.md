@@ -57,8 +57,9 @@ npm install eslint @typescript-eslint/parser @typescript-eslint/eslint-plugin --
 To lint the code:
 
 bash
-npx --fix index.ts (automatic correction)
-npx index.ts
+npx eslint --fix index.ts (automatic correction)
+
+npx eslint index.ts
 
 # Ruby
 ## Overview
