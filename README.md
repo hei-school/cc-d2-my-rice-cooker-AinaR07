@@ -27,7 +27,7 @@ To run the program:
 
 bash:
 
-dart main.dart
+dart RC.dart
 This command will execute the Dart file containing the rice cooker program.
 
 ## Run linter
