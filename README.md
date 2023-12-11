@@ -42,6 +42,9 @@ To lint your TypeScript code, execute:
 
 bash:
 
+npx eslint --fix index.ts (automatic correction)
+
 npx eslint index.ts
+
 This command will check for any potential issues or coding style violations in your TypeScript code.
 
